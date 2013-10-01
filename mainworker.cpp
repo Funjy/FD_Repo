@@ -26,6 +26,7 @@ MainWorker::MainWorker(NetWorker *networker)
     _isWorking = false;
     _initialized = false;
     _close = false;
+    //1337
 }
 
 MainWorker::~MainWorker()
