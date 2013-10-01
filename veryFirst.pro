@@ -36,15 +36,26 @@ SOURCES += main.cpp\
         mainwindow.cpp \
     networker.cpp \
     clientserverinterface.cpp \
-    mainworker.cpp
+    mainworker.cpp \
+    Controllers/networker.cpp \
+    Controllers/mainworker.cpp \
+    SupportClasses/clientserverinterface.cpp \
+    Windows/mainwindow.cpp
 
 HEADERS  += mainwindow.h \
     networker.h \
-    clientserverinterface.h \
-    mainworker.h
+    mainworker.h \
+    Controllers/networker.h \
+    Controllers/mainworker.h \
+    SupportClasses/clientserverinterface.h \
+    Windows/mainwindow.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    Windows/mainwindow.ui
 
 OTHER_FILES += \
     haarcascade_frontalface_default.xml \
-    1380502074_camera.png
+    1380502074_camera.png \
+    Resources/haarcascade_frontalface_default.xml \
+    Resources/1380502311_camera.png \
+    Resources/1380502074_camera.png
